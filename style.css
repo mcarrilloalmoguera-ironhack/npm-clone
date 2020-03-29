@@ -28,6 +28,10 @@ nav a {
   color: black;
 }
 
+nav a:hover {
+  color: #595959;
+}
+
 .blackHeart {
   width: 25px;
   margin-right: 1rem;
@@ -41,6 +45,10 @@ nav a {
   padding: 0.65em 1em;
   margin: 0.7em 0 0.7em -5px;
   font-size: 1em;
+}
+
+.btn:hover {
+  background-color: #DF333F;
 }
 
 .npm-logo {
@@ -78,9 +86,18 @@ form > label {
   text-decoration: none;
 }
 
+.btn-outline:hover {
+  color: #595959;
+  border-color: #595959;
+}
+
 .btn-simple {
   color: black;
   text-decoration: none;
+}
+
+.btn-simple:hover {
+  color: #595959;
 }
 
 .hero {
